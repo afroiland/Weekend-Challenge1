@@ -1,0 +1,60 @@
+h1 {
+  color: teal;
+}
+
+#container {
+  border: 1px solid blue;
+  padding: 10px;
+  margin: 30px;
+}
+
+.person {
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.clicked {
+  border-color: red;
+}
+
+#table {
+  text-align: left;
+}
+
+#employeeinfo {
+  display: block;
+  margin: 20px;
+}
+
+#employeeinfo input {
+  margin-left: 18em;
+}
+
+#employeeinfo label {
+  position: absolute;
+}
+
+.first {
+  margin: 10px;
+}
+
+.last {
+  margin: 10px;
+}
+
+.number {
+  margin: 10px;
+}
+
+.title {
+  margin: 10px;
+}
+
+.annualsalary {
+  margin: 10px;
+}
+
+.submitbutton {
+  margin: 10px;
+  margin-left: 30px;
+}
