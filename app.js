@@ -16,10 +16,11 @@ $(document).ready(function() {
 
       appendDom(values);
       updateSalary(values);
+      //console.log($('#table').find('td').last());
     });
 
     $('#remove').on('click', function(event) {
-      $('#table').last().remove();
+      $('#table').find('tr').last().remove();
     });
 
     function appendDom(empInfo) {
