@@ -3,7 +3,7 @@ h1 {
 }
 
 #container {
-  border: 1px solid blue;
+  border: 1px solid black;
   padding: 10px;
   margin: 30px;
 }
@@ -20,6 +20,13 @@ h1 {
 #table {
   text-align: left;
 }
+
+td, th {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+tr:hover {background-color: lightgray}
 
 #employeeinfo {
   display: block;
