@@ -19,7 +19,7 @@ $(document).ready(function() {
     });
 
     $('#remove').on('click', function(event) {
-      $('#table').children().last().remove();
+      $('#table').last().remove();
     });
 
     function appendDom(empInfo) {
@@ -34,6 +34,7 @@ $(document).ready(function() {
 
     function updateSalary(empInfo) {
       totalSalary += parseInt(empInfo.employeeAnnualSalary);
+      totalSalary /= 12;
       $("#totSalary").text(totalSalary);
     }
 
